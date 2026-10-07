@@ -1,6 +1,6 @@
 """
 Smart Resume Analyzer - AI + NLP mini-project
-Stack: Streamlit + pypdf + Google GenAI SDK (gemini-2.5-flash)
+Stack: Streamlit + pypdf + Google GenAI SDK (gemini-3.8-flash)
 
 Run:  streamlit run app.py
 """
@@ -241,7 +241,7 @@ with st.sidebar:
 # Main page
 # --------------------------------------------------------------------------- #
 st.title("📄 Smart Resume Analyzer")
-st.caption("AI-powered resume-to-job-description matching using Gemini 2.5 Flash")
+st.caption("AI-powered resume-to-job-description matching using Gemini 3.8 Flash")
 
 left, right = st.columns(2, gap="large")
 
