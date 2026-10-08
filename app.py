@@ -1,6 +1,6 @@
 """
 Smart Resume Analyzer - AI + NLP mini-project
-Stack: Streamlit + pypdf + Google GenAI SDK (gemini-3.8-flash)
+Stack: Streamlit + pypdf + Google GenAI SDK (gemini-3.5-flash)
 
 Run:  streamlit run app.py
 """
@@ -16,7 +16,7 @@ from pypdf import PdfReader
 # --------------------------------------------------------------------------- #
 # Configuration
 # --------------------------------------------------------------------------- #
-MODEL_NAME =  "gemini-3.8-flash"
+MODEL_NAME =  "gemini-3.5-flash"
 MAX_CHARS = 30_000  # safety cap on text sent to the model
 
 st.set_page_config(
